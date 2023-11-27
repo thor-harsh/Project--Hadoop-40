@@ -9,7 +9,7 @@
 A marketing agency has many customers that use their service to produce ads for the client/customer websites. They've noticed that they have quite a bit of churn in clients. They basically randomly assign account managers right now, but want you to create a machine learning model that will help predict which customers will churn (stop buying their service) so that they can correctly assign the customers most at risk to churn an account manager. Luckily they have some historical data, can you help them out? **Create a classification algorithm that will help classify whether or not a customer churned. Then the company can test this against incoming data for future customers to predict which customers will churn and assign them an account manager.** <br></br>
 Once you've created the model and evaluated it, test out the model on some new data (you can think of this almost like a hold-out set) that your client has provided, saved under new_customers.csv. The client wants to know which customers are most likely to churn given this data (they don't have the label yet).<br></br>
 
-**Before jumping to the code lets understand Spark and Linear Regression First**...<br></br>
+**Before jumping to the code lets understand Spark and Logistic Regression First**...<br></br>
 
 **What is Apache Spark?** <br></br>
 
@@ -28,8 +28,8 @@ Train machine learning algorithms on a laptop and use the same code to scale to 
 **5**: Columns = features<br></br>
 **6**: Rows = records<br></br>
 
-**What is Linear Regression**?<br></br>
- Linear Regression is the supervised Machine Learning model in which the model finds the best fit linear line between the independent and dependent variable i.e it finds the linear relationship between the dependent and independent variable.<br></br>
+**What is Logistic Regression**?<br></br>
+Logistic regression is a statistical method that is used for building machine learning models where the dependent variable is dichotomous: i.e. binary. Logistic regression is used to describe data and the relationship between one dependent variable and one or more independent variables.<br></br>
 
 
 **Important Note: Go through the cruise_ship_info.csv file before jumping to the code.**
