@@ -7,6 +7,17 @@
 **Here is the Problem Statement!** <br></br>
 
 A marketing agency has many customers that use their service to produce ads for the client/customer websites. They've noticed that they have quite a bit of churn in clients. They basically randomly assign account managers right now, but want you to create a machine learning model that will help predict which customers will churn (stop buying their service) so that they can correctly assign the customers most at risk to churn an account manager. Luckily they have some historical data, can you help them out? **Create a classification algorithm that will help classify whether or not a customer churned. Then the company can test this against incoming data for future customers to predict which customers will churn and assign them an account manager.** <br></br>
+
+The data is saved as customer_churn.csv. Here are the fields and their definitions:<br></br>
+Name : Name of the latest contact at Company<br></br>
+Age: Customer Age<br></br>
+Total_Purchase: Total Ads Purchased<br></br>
+Account_Manager: Binary 0=No manager, 1= Account manager assigned<br></br>
+Years: Totaly Years as a customer<br></br>
+Num_sites: Number of websites that use the service.<br></br>
+Onboard_date: Date that the name of the latest contact was onboarded<br></br>
+Location: Client HQ Address<br></br>
+Company: Name of Client Company<br></br>
 Once you've created the model and evaluated it, test out the model on some new data (you can think of this almost like a hold-out set) that your client has provided, saved under new_customers.csv. The client wants to know which customers are most likely to churn given this data (they don't have the label yet).<br></br>
 
 **Before jumping to the code lets understand Spark and Logistic Regression First**...<br></br>
