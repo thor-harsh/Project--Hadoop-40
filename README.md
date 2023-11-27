@@ -6,7 +6,8 @@
 
 **Here is the Problem Statement!** <br></br>
 
-**Congratulations!** You've been contracted by Hyundai Heavy Industries to help them build a predictive model for some ships.<br> Hyundai Heavy Industries is one of the world's largest ship manufacturing companies and builds cruise liners.You've been flown to their headquarters in Ulsan, South Korea to help them give accurate estimates of how many crew members a ship will require.<br></br>They are currently building new ships for some customers and want you to create a model and use it to predict how many crew members the ships will need. **So our job is to find the no. of crews required in each ship.** <br></br>
+A marketing agency has many customers that use their service to produce ads for the client/customer websites. They've noticed that they have quite a bit of churn in clients. They basically randomly assign account managers right now, but want you to create a machine learning model that will help predict which customers will churn (stop buying their service) so that they can correctly assign the customers most at risk to churn an account manager. Luckily they have some historical data, can you help them out? **Create a classification algorithm that will help classify whether or not a customer churned. Then the company can test this against incoming data for future customers to predict which customers will churn and assign them an account manager.** <br></br>
+Once you've created the model and evaluated it, test out the model on some new data (you can think of this almost like a hold-out set) that your client has provided, saved under new_customers.csv. The client wants to know which customers are most likely to churn given this data (they don't have the label yet).<br></br>
 
 **Before jumping to the code lets understand Spark and Linear Regression First**...<br></br>
 
