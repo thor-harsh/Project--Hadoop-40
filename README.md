@@ -32,7 +32,7 @@ Train machine learning algorithms on a laptop and use the same code to scale to 
 Logistic regression is a statistical method that is used for building machine learning models where the dependent variable is dichotomous: i.e. binary. Logistic regression is used to describe data and the relationship between one dependent variable and one or more independent variables.<br></br>
 
 
-**Important Note: Go through the cruise_ship_info.csv file before jumping to the code.**
+**Important Note: Go through the customer_churn.csv and new_customers.csv files before jumping to the code.**
 
 
 </table>
